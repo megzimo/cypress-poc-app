@@ -17,13 +17,11 @@ Run `npm run cypress` to kick off cypress - this should open the cypress GUI.
 
 # About Cypress
 
-## Features
 ### Network Requests
-For true end to end testing, responses go through all layers of your server and therefore the tests are often slower than stubbed responses. 
+For true end to end testing, responses go through all layers of your server and therefore the tests are often slower than stubbed responses. To test using network responses, ensure the server is running and then complete the neccessary ui interaction to trigger the api call. You should be able to see the network request on the cypress gui as well as within your server terminal.
 
-## Usage
 ### Network Requests
-To work with network requests we need:
+To stub out calls to the api, use the following commands:
 
 `cy.server()` to start a server and begin routing responses to cy.route().
 
@@ -35,7 +33,7 @@ To work with network requests we need:
 
 
 ## Helpful Articles/Resources
-### Cypress
+### Cypress Documentation
 [Installation](https://docs.cypress.io/guides/getting-started/installing-cypress.html)
 
 [API](https://docs.cypress.io/api/api/table-of-contents.html)
