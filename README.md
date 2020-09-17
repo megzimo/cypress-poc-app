@@ -2,7 +2,7 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.1.1.
 
-## Build
+## Start the app
 
 Run `ng serve` to build the project. 
 
@@ -32,10 +32,12 @@ To work with network requests we need:
 ## Helpful Articles/Resources
 ### Cypress
 [Installation](https://docs.cypress.io/guides/getting-started/installing-cypress.html)
+
 [API](https://docs.cypress.io/api/api/table-of-contents.html)
 
 ### Github
 [Cypress](https://github.com/cypress-io/cypress)
+
 [Cypress IO](https://github.com/cypress-io)
 
 ### Other
