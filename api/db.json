@@ -1,0 +1,68 @@
+{
+  "groceryItems": [
+    {
+      "id": 1,
+      "product": "avocados",
+      "price": "$0.79/ea",
+      "category": "produce",
+      "perishable": "true",
+      "onSale": "false"
+    },
+    {
+      "id": 2,
+      "product": "bread loaf",
+      "price": "$2.49",
+      "category": "bakery",
+      "perishable": "true",
+      "onSale": "true"
+    },
+    {
+      "id": 3,
+      "product": "milk",
+      "price": "$2.79",
+      "category": "dairy",
+      "perishable": "true",
+      "onSale": "false"
+    },
+    {
+      "id": 4,
+      "product": "eggs",
+      "price": "$4.99",
+      "category": "dairy",
+      "perishable": "true",
+      "onSale": "false"
+    },
+    {
+      "id": 5,
+      "product": "dish soap",
+      "price": "$1.99",
+      "category": "cleaning supplies",
+      "perishable": "false",
+      "onSale": "true"
+    },
+    {
+      "id": 6,
+      "product": "paper towels",
+      "price": "$6.47",
+      "category": "paper goods",
+      "perishable": "false",
+      "onSale": "false"
+    },
+    {
+      "product": "AAA batteries",
+      "price": "$7.79/ea",
+      "category": "misc",
+      "perishable": "false",
+      "onSale": "false",
+      "id": 12
+    },
+    {
+      "product": "fish",
+      "price": "meat",
+      "category": "12",
+      "perishable": "true",
+      "onSale": "true",
+      "id": 13
+    }
+  ]
+}

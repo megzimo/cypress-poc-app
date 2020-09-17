@@ -1,0 +1,9 @@
+<mat-toolbar>
+  <button *ngFor="let nav of routes"
+          [routerLink]="[nav.route]">
+    {{nav.label}}
+  </button>
+</mat-toolbar>
+<br>
+
+<router-outlet></router-outlet>
