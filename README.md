@@ -2,26 +2,41 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.1.1.
 
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
 ## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+Run `ng serve` to build the project. 
 
-## Running unit tests
+## Starting the server
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Run `npm run api` to kick off the json-server.
 
-## Running end-to-end tests
+## Running tests
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+Run `npm run cypress` to kick off cypress - this should open the cypress GUI.
 
-## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+# About Cypress
+
+## Features
+### Network Requests
+For true end to end testing, responses go through all layers of your server and therefore the tests are often slower than stubbed responses. 
+
+## Usage
+### Network Requests
+To work with network requests we need:
+`cy.server()` to start a server and begin routing responses to cy.route().
+`cy.route()` to manage the behavior of network requests.
+`as()` to assign an alias to the route.
+`cy.wait()` to wait for the aliased resource to resolve before moving on to the next command.
+
+## Helpful Articles/Resources
+### Cypress
+[Installation](https://docs.cypress.io/guides/getting-started/installing-cypress.html)
+[API](https://docs.cypress.io/api/api/table-of-contents.html)
+
+### Github
+[Cypress](https://github.com/cypress-io/cypress)
+[Cypress IO](https://github.com/cypress-io)
+
+### Other
+[Angular in Depth - Cypress](https://medium.com/angular-in-depth/get-started-with-cypress-d6ac4b910605)
