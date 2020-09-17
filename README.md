@@ -24,10 +24,15 @@ For true end to end testing, responses go through all layers of your server and 
 ## Usage
 ### Network Requests
 To work with network requests we need:
+
 `cy.server()` to start a server and begin routing responses to cy.route().
+
 `cy.route()` to manage the behavior of network requests.
+
 `as()` to assign an alias to the route.
+
 `cy.wait()` to wait for the aliased resource to resolve before moving on to the next command.
+
 
 ## Helpful Articles/Resources
 ### Cypress
